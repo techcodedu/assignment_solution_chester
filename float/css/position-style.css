@@ -1,0 +1,48 @@
+/* body {
+  height: 4000px;
+} */
+
+/* box */
+.box {
+  width: 100px;
+  height: 100px;
+}
+
+/* container */
+.container {
+  width: 500px;
+  height: 500px;
+  background: #333;
+  position: absolute;
+  z-index:1;
+}
+
+/* apply attributes for box-1 to box-5*/
+#box-1 {
+  background: red;
+  top: 50px;
+  left: 50px;
+  position: absolute;
+  z-index: 3;
+}
+
+#box-2 {
+  background: yellow;
+  position: absolute;
+  top: -10px;
+  left: 100px;
+  z-index:1;
+}
+#box-3 {
+  background: green;
+  position: relative;
+  top: 100px;
+  left: 150px;
+  z-index: 1;
+}
+#box-4 {
+  background: rgb(18, 18, 50);
+}
+#box-5 {
+  background: orange;
+}
